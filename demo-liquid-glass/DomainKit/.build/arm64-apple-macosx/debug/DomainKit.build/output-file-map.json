@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/primary.swiftdeps"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.dia"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.dia"
+  }
+}

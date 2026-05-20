@@ -1,0 +1,792 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.xctest/Contents/MacOS/DomainKitPackageTests",
+      "packagePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit",
+      "productName" : "DomainKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DomainKit-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/sources",
+      "importPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DomainKit",
+      "moduleOutputPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKit.swiftmodule",
+      "objects" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/include/DomainKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "domainkit"
+      ],
+      "outputFileMapPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift"
+      ],
+      "tempsPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DomainKitPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/sources",
+      "importPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DomainKitPackageTests",
+      "moduleOutputPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/include/DomainKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "domainkit"
+      ],
+      "outputFileMapPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DomainKitTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/sources",
+      "importPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/AssessmentRepositoryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/CriteriaTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/MemberResultTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DomainKitTests",
+      "moduleOutputPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKitTests.swiftmodule",
+      "objects" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/AssessmentRepositoryTests.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/CriteriaTests.swift.o",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/MemberResultTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "domainkit"
+      ],
+      "outputFileMapPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/AssessmentRepositoryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/CriteriaTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/MemberResultTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules/DomainKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/AssessmentRepositoryTests.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/CriteriaTests.swift",
+        "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/MemberResultTests.swift"
+      ],
+      "tempsPath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DomainKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DomainKit",
+      "-package-name",
+      "domainkit",
+      "-c",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift",
+      "-I",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/include/DomainKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "domainkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DomainKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DomainKitPackageTests",
+      "-package-name",
+      "domainkit",
+      "-c",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/include/DomainKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "domainkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DomainKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DomainKitTests",
+      "-package-name",
+      "domainkit",
+      "-c",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/AssessmentRepositoryTests.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/CriteriaTests.swift",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/MemberResultTests.swift",
+      "-I",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "domainkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DomainKit" : [
+
+    ],
+    "DomainKitPackageTests" : [
+      "DomainKitTests",
+      "DomainKit"
+    ],
+    "DomainKitTests" : [
+      "DomainKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/sources"
+    },
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/sources"
+    },
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Assessment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/AssessmentRepositoryProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Course.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Criteria.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Evaluation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/LocalAssessmentSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/MemberResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKit.build/Peer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/AssessmentRepositoryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/CriteriaTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/MemberResultTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/AssessmentRepositoryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/CriteriaTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Tests/DomainKitTests/MemberResultTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitTests.build/sources"
+    },
+    "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

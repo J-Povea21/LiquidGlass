@@ -1,0 +1,9 @@
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/datasources/local/LocalAssessmentSource.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/data/repositories/AssessmentRepository.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Assessment.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Course.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Criteria.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Evaluation.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/MemberResult.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/models/Peer.swift
+/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/Sources/DomainKit/domain/repositories/AssessmentRepositoryProtocol.swift

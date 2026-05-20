@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.d",
+    "object": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/amdres/Documents/Repositories/College/Mobile/demo-liquid-glass/DomainKit/.build/arm64-apple-macosx/debug/DomainKitPackageTests.build/runner.dia"
+  }
+}
